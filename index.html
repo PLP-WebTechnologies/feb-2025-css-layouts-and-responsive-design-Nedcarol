@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design with CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">CSS Layouts</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Responsive Web Design</h1>
+            <p>Using Flexbox and CSS Grid for modern layouts</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </section>
+
+        <section class="features">
+            <h2 class="section-title">Our Features</h2>
+            <div class="feature-container">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Mobile First</h3>
+                    <p>Designed to work perfectly on all device sizes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast Loading</h3>
+                    <p>Optimized for performance and quick page loads.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Modern Design</h3>
+                    <p>Clean aesthetics with attention to detail.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2 class="section-title">Image Gallery</h2>
+            <div class="grid-container">
+                <div class="grid-item" style="background-color: #ff7675;">
+                    <span>Item 1</span>
+                </div>
+                <div class="grid-item" style="background-color: #74b9ff;">
+                    <span>Item 2</span>
+                </div>
+                <div class="grid-item tall" style="background-color: #55efc4;">
+                    <span>Tall Item</span>
+                </div>
+                <div class="grid-item wide" style="background-color: #a29bfe;">
+                    <span>Wide Item</span>
+                </div>
+                <div class="grid-item" style="background-color: #ffeaa7;">
+                    <span>Item 5</span>
+                </div>
+                <div class="grid-item" style="background-color: #fd79a8;">
+                    <span>Item 6</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <p>"This design approach transformed our website!"</p>
+                    <div class="author">- Sarah J.</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The responsive layout works perfectly on all devices."</p>
+                    <div class="author">- Mark T.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Creating beautiful, responsive websites with modern CSS.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>email@example.com</p>
+                <p>(123) 456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 CSS Layouts. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
